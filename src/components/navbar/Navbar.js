@@ -9,7 +9,7 @@ function Navbar(){
         setNav(!nav)
     }
     return(
-        <div className='navbar'>
+        <div className={nav ? 'navbar-bg ': 'navbar'}>
             <div className="logo">
                 <h2>CAPTAINSHARK</h2>
             </div>
