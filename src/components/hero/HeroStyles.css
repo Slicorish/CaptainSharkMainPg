@@ -1,0 +1,10 @@
+.hero{
+    background: url('../../assets/IMG_7397.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
