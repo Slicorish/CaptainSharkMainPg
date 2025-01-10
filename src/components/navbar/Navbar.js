@@ -21,7 +21,7 @@ function Navbar(){
             <div className='hamburger' onClick={handleNav}>
                 <HiOutlineMenuAlt4 className='icon' />
             </div>
-            <div className={nav ? 'mobile-menu active' : 'mobiile-menu'}>
+            <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className='mobile-nav'>
                     <li>Home</li>
                     <li>Login/Register</li>
