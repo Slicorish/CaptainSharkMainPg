@@ -1,12 +1,12 @@
 import React from 'react'
 import './HeroStyles.css'
 
-function Hero() {
-    return (
-        <div>
-            <h1>Hero</h1>
+function Hero(){    
+    return(
+        <div className="hero"> {
+           
+        }
         </div>
     )
 }
-
 export default Hero
