@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
-
 import './NavbarStyles.css'
 
 function Navbar(){
@@ -14,18 +14,18 @@ function Navbar(){
                 <h2>CAPTAINSHARK</h2>
             </div>
             <ul className='nav-menu'>
-                <li>Home</li>
-                <li>Login/Register</li>
-                <li>CaptainShark</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Login/Register</Link></li>
+                <li><Link to="/">CaptainShark</Link></li>
             </ul>
             <div className='hamburger' onClick={handleNav}>
                 <HiOutlineMenuAlt4 className='icon' />
             </div>
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className='mobile-nav'>
-                    <li>Home</li>
-                    <li>Login/Register</li>
-                    <li>CaptainShark</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Login/Register</Link></li>
+                <li><Link to="/">CaptainShark</Link></li>
                 </ul>
                 <div className='mobile-menu-bottom'>
                     <div className='menu-icons'>
