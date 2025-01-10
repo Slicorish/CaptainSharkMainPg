@@ -24,18 +24,17 @@ li{
     padding: 0 1rem;
 }
 
-.hamburger{
-    display: none;
-    /*padding: 1rem;*/
+.nav-menu li {
+    margin: 0 1rem;
 }
 
-    .nav-menu li {
-        margin: 0 1rem;
-    }
+.hamburger{
+    display: none;
+}
 
-    .hamburger{
-        display: none;
-    }
+.mobile-menu{
+    display: none;
+}
 
  @media screen and (max-width: 940px){
     .nav-menu{
@@ -76,18 +75,5 @@ li{
     .mobile-menu-bottom{
        margin: 1rem;
        width: 90%;
-    }
-
-
-    .nav-menu{
-        display: none;
-    }
-
-    .hamburger{
-        display: block;
-    }
-
-    .mobile-menu{
-        display: none;
     }
  }
